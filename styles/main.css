@@ -1,0 +1,154 @@
+/* * {
+    border: red solid 1px;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    background-color: rgb(224, 187, 119);
+    width: 100%;
+    color:rgb(11, 168, 230);
+    padding: 10px; 
+    text-shadow: 0px 0px 10px darkblue;
+    border: 10px darkblue groove;
+    box-sizing: border-box;
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.main-content {
+    font-size: 1.2em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.fish {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(224, 187, 119);
+    /* align-items: center; */
+}
+
+.fish__header {
+    text-align: center;
+}
+
+.fishList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;
+    border: double 5px darkblue;
+    background-color: rgb(11, 168, 230);
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.fish.card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: rgb(11, 168, 230);
+    /* border: solid 1px green; */
+}
+
+.fish__image {
+    width: 100%;
+}
+
+.quote__header {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+quote {
+    margin: 0;
+}
+
+.quote {
+    margin: 20px 0 20px 0px;
+    font-style: italic;
+}
+
+.quote__header, .quotes {
+    background-color: gray;
+    border: double 5px darkblue;
+}
+
+aside {
+    width: 100%;
+}
+
+.tipList {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkblue;
+    padding: 5px 10px;
+    margin-top: 80px;
+    
+    /* border: solid 1px green; */
+}
+
+.tip__title {
+    font-weight: bold;
+}
+
+.tip__list {
+    display: list-item;
+    margin-left: 20px;
+    
+}
+
+.tip.card {
+    margin: 30px 10px;
+    background-color: rgb(11, 168, 230);
+    padding: 5px;
+    border: solid 5px blue;
+}
+
+.locations__header {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.locations {
+    text-align: center;
+    background-color: rgb(11, 168, 230);
+    padding: 20px; 
+    margin: 0 0 20px 0;
+}
+
+.location.card {
+    margin: 0 0 20px 0;
+    padding: 20px;
+    border: 5px darkblue double;
+}
